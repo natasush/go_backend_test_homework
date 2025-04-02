@@ -11,7 +11,7 @@ var (
 
 func TestCheckRequiredFiles(t *testing.T) {
 
-	dir, err := os.Getwd()
+	dir, err := os.Getwd() // testcomment
 	if err != nil {
 		t.Errorf(err.Error())
 	}
